@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <h1>Este es el Home</h1>
+    <h1>Esta es la pagina de Ordenes</h1>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Home',
+  name: 'Ordenes',
   components: {
 
   }
