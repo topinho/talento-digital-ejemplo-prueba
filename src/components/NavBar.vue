@@ -18,6 +18,15 @@
           </li>
           <li>
             <router-link 
+              to="/productos"
+              tag="a"
+              class="nav-link px-2 text-white"
+            >
+              Productos
+            </router-link>
+          </li>
+          <li>
+            <router-link 
               to="/ordenes"
               tag="a"
               class="nav-link px-2 text-white"
@@ -32,6 +41,15 @@
               class="nav-link px-2 text-white"
             >
               Inventario
+            </router-link>
+          </li>
+          <li>
+            <router-link 
+              to="/despachos"
+              tag="a"
+              class="nav-link px-2 text-white"
+            >
+              Despachos
             </router-link>
           </li>
         </ul>

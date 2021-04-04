@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Ordenes from '../views/Ordenes.vue'
 import Inventario from '../views/Inventario.vue'
+import Despachos from '../views/Despachos.vue'
+import Productos from '../views/Productos.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +23,16 @@ const routes = [
     path: '/inventario',
     name: 'Inventario',
     component: Inventario
+  },
+  {
+    path: '/despachos',
+    name: 'Despachos',
+    component: Despachos
+  },
+  {
+    path: '/productos',
+    name: 'Productos',
+    component: Productos
   }
 ]
 
