@@ -1,0 +1,32 @@
+{
+  "oficinas": [
+    {
+      "id": 10,
+      "name": "New York"
+    },
+    {
+      "id": 11,
+      "name": "Boston"
+    },
+    {
+      "id": 12,
+      "name": "San Francisco"
+    },
+    {
+      "id": 13,
+      "name": "Paris"
+    },
+    {
+      "id": 14,
+      "name": "Tokyo"
+    },
+    {
+      "id": 15,
+      "name": "Sydney"
+    },
+    {
+      "id": 16,
+      "name": "London"
+    }
+  ]
+}

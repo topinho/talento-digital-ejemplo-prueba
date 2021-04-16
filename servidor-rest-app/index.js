@@ -22,13 +22,52 @@ class Orden {
         this.estado = estado
     }
 }
-
+/*
 var ordenes = [
     new Orden(123445,'Multitiendas Sigma SA', 1540000, 160, '2020-07-20T00:00:00.000Z', 0, 'Ingresado'),
     new Orden(123444,'Jugueteria Asimov SpA', 980000, 45, '2020-07-20T00:00:00.000Z', 0.4, 'Preparacion'),
     new Orden(123443,'Bazar Don Lalo LDTA', 2400000, 120, '2020-07-18T00:00:00.000Z', 0.6, 'Preparacion'),
     new Orden(123456,'Luis Fuentes', 1740000, 160, '2020-07-20T00:00:00.000Z', 0.6, 'Preparacion'),
     new Orden(123441,'Claudia Ingrid Romero', 1740000, 70, '2020-07-14T00:00:00.000Z', 1, 'Entregado')   
+]
+*/
+var ordenes = [
+    {
+        "num_orden": 123445,
+        "cliente": "Multitiendas Sigma SA",
+        "monto": 1540000,
+        "cant_productos": 160,
+        "fecha_entrega": "2020-07-20T00:00:00.000Z",
+        "avance_preparacion": 0,
+        "estado": "Ingresado"
+      },
+      {
+        "num_orden": 123444,
+        "cliente": "Jugueteria Asimov SpA",
+        "monto": 980000,
+        "cant_productos": 45,
+        "fecha_entrega": "2020-07-20T00:00:00.000Z",
+        "avance_preparacion": 0.4,
+        "estado": "Preparacion"
+      },
+      {
+        "num_orden": 123443,
+        "cliente": "Bazar Don Lalo LDTA",
+        "monto": 2400000,
+        "cant_productos": 120,
+        "fecha_entrega": "2020-07-18T00:00:00.000Z",
+        "avance_preparacion": 0.6,
+        "estado": "Preparacion"
+      },
+      {
+        "num_orden": 123441,
+        "cliente": "Claudia Ingrid Romero",
+        "monto": 1740000,
+        "cant_productos": 70,
+        "fecha_entrega": "2020-07-14T00:00:00.000Z",
+        "avance_preparacion": 1,
+        "estado": "Entregado"
+      }
 ]
 
 class Cliente {

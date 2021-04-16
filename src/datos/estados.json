@@ -1,0 +1,24 @@
+{
+  "estados": [
+    {
+      "id": 1,
+      "name": "Ingresado"
+    },
+    {
+      "id": 2,
+      "name": "Preparacion"
+    },
+    {
+      "id": 3,
+      "name": "Entregado"
+    },
+    {
+      "id": 4,
+      "name": "Anulado"
+    },
+    {
+      "id": 5,
+      "name": "Devuelto"
+    }
+  ]
+}

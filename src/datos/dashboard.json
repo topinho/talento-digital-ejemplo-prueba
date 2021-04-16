@@ -1,0 +1,62 @@
+{
+  "kpis": [
+    {
+      "nombre": "cumplimiento diario de ordenes",
+      "entregadas": "1500",
+      "pendientes": "500"
+    },
+    {
+      "nombre": "Ordenes atrasadas jornada",
+      "totales": "700",
+      "atrasadas": "14"
+    }
+  ],
+  "utimas_ordenes": [
+    {
+      "num_orden": "123446",
+      "cliente": "Multitiendas Sigma SA",
+      "fecha_entrega": "2020-07-20",
+      "estado": "Ingresado"
+    },
+    {
+      "num_orden": "123445",
+      "cliente": "Jugueteria Asimov SpA",
+      "fecha_entrega": "2020-07-20",
+      "estado": "Preparacion"
+    },
+    {
+      "num_orden": "123444",
+      "cliente": "Bazar Don Lalo LTDA",
+      "fecha_entrega": "2020-07-18",
+      "estado": "Preparacion"
+    },
+    {
+      "num_orden": "123443",
+      "cliente": "Claudia Ingrid Romero",
+      "fecha_entrega": "2020-07-18",
+      "estado": "Entregado"
+    }
+  ],
+  "ultimas_devoluciones": [
+    {
+      "num_orden": "122289",
+      "cliente": "Multi Game SpA",
+      "fecha_entrega": "2020-07-20"
+    },
+    {
+      "num_orden": "122283",
+      "cliente": "Jugueteria Play LTDA",
+      "fecha_entrega": "2020-07-20"
+    },
+    {
+      "num_orden": "122271",
+      "cliente": "Tiendas La Reina SA",
+      "fecha_entrega": "2020-07-18"
+    },
+    {
+      "num_orden": "122232",
+      "cliente": "Ofertas Unicas LTDA",
+      "fecha_entrega": "2020-07-14"
+    }
+  ]
+}
