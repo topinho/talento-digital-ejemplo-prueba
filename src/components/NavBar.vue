@@ -36,6 +36,15 @@
           </li>
           <li>
             <router-link 
+              to="/orden"
+              tag="a"
+              class="nav-link px-2 text-white"
+            >
+              Orden
+            </router-link>
+          </li>
+          <li>
+            <router-link 
               to="/inventario"
               tag="a"
               class="nav-link px-2 text-white"
